@@ -16,10 +16,8 @@ body {
 #img-container {
   text-align: center;
   background: black;
-  border-color: rgba(13, 60, 146, 0.178);
-  border-style: dotted solid dashed;
-  border-width: 0.5rem;
   padding: 3rem 5rem;
+  height: 65rem;
 }
 
 img {
@@ -28,6 +26,7 @@ img {
   filter: blur(0.213rem);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-text {
@@ -51,9 +50,3 @@ img {
   text-transform: lowercase;
 }
 
-footer {
-  text-align: center;
-  font-size: 0.8rem;
-  padding: 4rem 0 2rem;
-  opacity: 0.6;
-}
